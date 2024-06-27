@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Todo = () => {
   return (
-    <div>Todo</div>
+    <div className='Todo'>
+      <p>go to school</p>
+    </div>
   )
 }
