@@ -1,25 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+h1{
+  color: brown;
+}
 .to-input::placeholder{
   color: #ffffff4d;
 }
 .todo-btn{
-  background-color: #8758ff;
+  background-color: brown;
   color: #fff;
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  margin-left: 3px;
 }
 .Todo{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #8758ff;
-  color: #fff;
+  color: whitesmoke;
+  background-color: brown;
   padding: 0.75rem 1rem;
   border-radius: 7px;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
 }
-.completed{
-  color: #c5eeff;
-  text-decoration: line-through;
+.todo-input{
+  padding: 0.5rem 1rem
+}
+.TodoWrapper{
+  /* background-color: brown; */
+}
+.fa-trash{
+  color: black;
 }
